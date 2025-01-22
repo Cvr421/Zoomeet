@@ -1,13 +1,11 @@
 import React from 'react'
 
-function Home() {
+const page = () => {
   return (
-  
     <section className="flex size-full flex-col gap-5 text-white">
-<h1 className="text-4xl font-extrabold ">Home</h1>
-</section>
-
+    <h1 className="text-4xl font-extrabold ">page</h1>
+  </section>
   )
 }
 
-export default Home
+export default page

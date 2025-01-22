@@ -16,7 +16,9 @@ export default {
 			2: '#161925'
 		   },
 
-
+            blue:{
+				1: '#0E78F9'
+			},                             
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

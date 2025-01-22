@@ -6,6 +6,7 @@ const HomeLayout=({children}:{children: ReactNode})=> {
   return (
     <main className="relative">
        <Navbar/>
+
       <div className="flex">
      <Sidebar/>
         
@@ -18,4 +19,4 @@ const HomeLayout=({children}:{children: ReactNode})=> {
   )
 }
 
-export default HomeLayout
+export default HomeLayout;
