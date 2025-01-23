@@ -2,6 +2,20 @@ import Navbar from '@/components/Navbar'
 
 import React, { ReactNode } from 'react'
 import Sidebar from '@/components/Sidebar'
+import { Metadata } from 'next';
+
+
+export const metadata: Metadata = {
+  title: "Zoomeet",
+  description: "Video calling App",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
+};
+
+
+
+
 const HomeLayout=({children}:{children: ReactNode})=> {
   return (
     <main className="relative">
