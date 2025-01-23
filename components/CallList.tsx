@@ -64,9 +64,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
   const calls = getCalls();
   const noCallsMessage = getNoCallsMessage();
 
-    function handleDeleteRecording(arg0: CallRecording): void {
-        throw new Error('Function not implemented.');
-    }
+   
 
   return (
     <div className="grid grid-cols-1 gap-5 xl:grid-cols-2">
