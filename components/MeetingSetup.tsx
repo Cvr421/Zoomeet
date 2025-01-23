@@ -17,8 +17,8 @@ const MeetingSetup = ({
 }) => {
   // https://getstream.io/video/docs/react/guides/call-and-participant-state/#call-state
   const { useCallEndedAt, useCallStartsAt } = useCallStateHooks();
-  const callStartsAt = useCallStartsAt();
-  const callEndedAt = useCallEndedAt();
+  // const callStartsAt = useCallStartsAt();
+  // const callEndedAt = useCallEndedAt();
   // const callTimeNotArrived =
   //   callStartsAt && new Date(callStartsAt) > new Date();
   // const callHasEnded = !!callEndedAt;
