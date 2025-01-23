@@ -1,10 +1,11 @@
 'use client';
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from 'react';
 import {
   DeviceSettings,
   VideoPreview,
   useCall,
-  useCallStateHooks,
+  // useCallStateHooks,
 } from '@stream-io/video-react-sdk';
 
 // import Alert from './Alert';
@@ -16,7 +17,7 @@ const MeetingSetup = ({
   setIsSetupComplete: (value: boolean) => void;
 }) => {
   // https://getstream.io/video/docs/react/guides/call-and-participant-state/#call-state
-  const { useCallEndedAt, useCallStartsAt } = useCallStateHooks();
+  // const { useCallEndedAt, useCallStartsAt } = useCallStateHooks();
   // const callStartsAt = useCallStartsAt();
   // const callEndedAt = useCallEndedAt();
   // const callTimeNotArrived =
